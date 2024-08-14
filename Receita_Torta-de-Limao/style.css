@@ -1,0 +1,52 @@
+/*ajuste geral, body, altura, alinhamento, fonte, cor de fundo*/
+body{ 
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-family: cursive;
+    background-image: linear-gradient( rgb(255,  191, 108),rgb(245, 213, 154),rgb(255, 191, 108));
+}
+
+/*Cores do titulo, contorno titulo, tamanho fonte*/
+h1{
+    margin-bottom: 1%;
+    color: rgb(18, 168, 98);
+    font-size: 49px;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+   
+    /*cor dos titulos ingredientes e modo de preparo */
+
+}
+h3{
+    color:  rgb(99, 82, 45);
+}
+
+
+ul, ol{
+    /* alinhando no centro  e colocando borda(cores)*/
+    align-items: center; 
+    text-align: justify;
+    justify-content: center;
+    margin:auto;
+    border: double ;
+    border-width: 8px;
+    width: 15%;
+    padding: 2% 4%;
+    border-color: rgb(99, 82, 45);
+}
+ul {
+    width: 15%;
+}
+ol{
+    width: 40%;
+}
+/* Ajuste de borda da imagem ( arredondamento, tipo de borada, cor e tamanho*/
+img {
+    border-radius: 10px;
+    border: ridge;
+    border-color: rgb(18, 168, 98);
+    border-width: 10px;
+  }
+
+
